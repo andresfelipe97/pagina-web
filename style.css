@@ -1,0 +1,118 @@
+*{
+    margin: 0; padding: 0;
+}
+
+    #header{
+        padding: 20px;
+        background-color: rgb(0, 0, 0);
+        
+    }
+
+    #header img{
+        height: 150px;
+        border-radius: 50%;
+    }
+
+    #nav{
+        color: aliceblue;
+        justify-content: flex-end;
+        display: flex;
+    }
+
+    #nav ul{
+        display: flex;
+    }
+
+
+    .imagen-container img{
+        height: 200%;
+    
+    }
+
+    .informacion-contenedor .imagen-mia{
+        position: absolute;
+        top: 650px;
+        left: 300px;
+    }
+
+
+    .imagen-mia img{
+        height: 300px;
+        width: 300px;
+        border-radius: 100%;
+    }
+    
+    .informacion{
+        position: absolute;
+        top: 600px;
+        left: 600px;
+    }
+
+    .informacion h1{
+        height: 100px;
+        font-size: 50px;    
+        font-family: "Poetsen One", sans-serif;
+        font-weight: 800PX;
+        font-style: normal;      
+        color: aliceblue;
+        padding: 20PX;
+
+    }
+
+
+    .informacion a{
+        position: absolute;
+        top: 200px;
+        left: 100px;
+        font-size: 50px;
+        height: 400px;
+        font-family: "Poetsen One", sans-serif;
+        font-weight: 800PX;
+        font-style: normal; 
+    }
+    .informacion p{
+        position: absolute;
+        top: 300px;
+        left: 65px;
+        font-size: 20px;
+        height: 400px;
+        font-family: "Poetsen One", sans-serif;
+        font-weight: 800PX;
+        font-style: normal; 
+        color: aliceblue;
+    }
+
+    main{
+        padding-top:50px ;
+        height: 500px;
+        font-family: "Poetsen One", sans-serif;
+        font-weight: 800PX;
+        font-style: normal; 
+        font-size: 30px;     
+        background-color: rgb(7, 91, 170);
+        color: rgb(255, 255, 255);
+        padding: 20PX;
+    }
+
+    main p{
+        padding: 100px;
+    }
+
+
+    #redes {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+
+    #redes img{
+        margin-top: 100PX;
+        height: 100px;
+        padding: 10px;  
+    }
+
+    ul {
+        list-style-type: none; 
+        margin: 0; 
+        padding: 0; 
+    }
